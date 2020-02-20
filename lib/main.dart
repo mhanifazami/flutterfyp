@@ -98,14 +98,14 @@ class _MyHomePageState extends State<MyHomePage> {
             DrawerHeader(
               child: CircleAvatar(
                 radius: 10.0,
-                backgroundImage: AssetImage('assets/diamond.png'),
+                backgroundImage: AssetImage('assets/camera.jpg'),
               ),
               decoration: BoxDecoration(
                 color: Colors.blueGrey,
               ),
             ),
             ListTile(
-              title: Text('It 1'),
+              title: Text('Item 1'),
               onTap: () {
                 // Update the state of the app
                 // ...
